@@ -122,7 +122,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="ripple-group" href="#portfolio-section">
+                                    <a class="ripple-group" href="#pricing-section">
                                         <span data-hover="parties">Parties</span>
                                     </a>
                                 </li>
@@ -132,12 +132,12 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="ripple-group" href="#process-section">
+                                    <a class="ripple-group" href="#map-section">
                                         <span data-hover="locations">locations</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="ripple-group animsition-link" href="#process-section">
+                                    <a class="ripple-group animsition-link" href="#blog-section">
                                         <span data-hover="franchise">franchise</span>
                                     </a>
                                 </li>
@@ -157,6 +157,21 @@
         <!--/ End Navbar -->
         <div id="page-2">
             <!-- About Section -->
+            <div id="map-section" class="map-section">
+                <!-- map opener -->
+                <div id="map-opener" class="map-mask">
+                    <div class="map-opener">
+                        <div class="font-second">locate us on the map<i class="ci-icon-uniE930"></i></div>
+                        <div class="font-second">close the map<i class="ci-icon-uniE92F"></i></div>
+                    </div>
+                </div>
+                <!--/ End map opener -->
+                <div id="google-map">
+                    <div id="map-canvas" data-address="412 Throop Ave, Brooklyn, NY 11221, USA"></div>
+                    <div id="map-zoom-in"></div>
+                    <div id="map-zoom-out"></div>
+                </div>
+            </div>
             <section id="about-section" class="about-section section">
                 <div class="container">
                     <div class="section-title">
@@ -215,21 +230,6 @@
             </section>
             <!--/ End About Section -->
             <hr />
-            <div id="map-section" class="map-section">
-                <!-- map opener -->
-                <div id="map-opener" class="map-mask">
-                    <div class="map-opener">
-                        <div class="font-second">locate us on the map<i class="ci-icon-uniE930"></i></div>
-                        <div class="font-second">close the map<i class="ci-icon-uniE92F"></i></div>
-                    </div>
-                </div>
-                <!--/ End map opener -->
-                <div id="google-map">
-                    <div id="map-canvas" data-address="412 Throop Ave, Brooklyn, NY 11221, USA"></div>
-                    <div id="map-zoom-in"></div>
-                    <div id="map-zoom-out"></div>
-                </div>
-            </div>
             <!-- Facts Section -->
             <div id="facts-section" class="facts-section text-center font-second small-section">
                 <div class="container">
@@ -358,625 +358,14 @@
             <!--/ End Services Section -->
             <hr />
             <!--Start Works Section -->
-            <section id="portfolio-section" class="portfolio-section section text-center no-padding-bottom">
-                <div class="container">
-                    <div class="section-title">
-                        <div class=" section-title-more">
-                            check it out
-                        </div>
-                        <div>
-                            <h1 class="section-title-heading">our <span>portfolio</span></h1>
-                        </div>
-                    </div>
-                    <!-- Start Works Buttons -->
-                    <div id="portfolio-filters" class="portfolio-filters margin-top-20 ripple-group-parent wow fadeIn" data-wow-offset="100" data-wow-delay=".1s">
-                        <a class="btn btn-animated btn-split ripple-group" data-text="all works" data-filter="*">
-                            <span class="btn-icon icon-tools"></span>
-                        </a>
-                        <span class="btn-seperator">|</span>
-                        <a class="btn btn-animated btn-split ripple-group" data-text="web design" data-filter=".web-design">
-                            <span class="btn-icon icon-browser"></span>
-                        </a>
-                        <span class="btn-seperator">|</span>
-                        <a class="btn btn-animated btn-split ripple-group" data-text="video" data-filter=".video">
-                            <span class="btn-icon icon-video"></span>
-                        </a>
-                        <span class="btn-seperator">|</span>
-                        <a class="btn btn-animated btn-split ripple-group" data-text="photo" data-filter=".photo">
-                            <span class="btn-icon icon-camera"></span>
-                        </a>
-                    </div>
-                    <!--/ End Works Buttons -->
-                </div>
-                <!-- /.container -->
-                <!-- Works Items -->
-                <ul id="portfolio-container" class="portfolio-container clearlist row portfolio-hover-effect">
-                    <li class="portfolio-item photo video col-sm-6 col-md-4 col-xs-12">
-                        <div class="portfolio-item-img">
-                            <img src="http://placehold.it/900x500" alt="portfolio" />
-                        </div>
-                        <div class="portfolio-item-info font-second">
-                            <h3 class="portfolio-item-title">sweet nicky</h3>
-                            <div class="portfolio-item-detail">
-                                <p>apiente accusantium fugiat</p>
-                                <!-- LightBox Button -->
-                                <a href="img/portfolio/grid-works/work01_lg.jpg" title="This is an image title" class="icon-magnifying-glass lightbox" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/grid-works/work01_lg@2x.jpg"></a>
-                                <!--/ End LightBox Button -->
-                                <a href="project_page.html" class="animsition-link icon-attachment"></a>
-                            </div>
-                        </div>
-                    </li>
-                    <!--/ End Work Item -->
-                    <li class="portfolio-item video col-sm-6 col-md-4 col-xs-12">
-                        <div class="video-work">
-                            <div class="video-background" data-vide-bg="mp4: img/portfolio/grid-works/work02, webm: img/portfolio/grid-works/work02, ogv: img/portfolio/grid-works/work02, poster: img/portfolio/grid-works/work02" data-vide-options="position: 50% 90%"></div>
-                        </div>
-                        <div class="portfolio-item-img">
-                            <img src="img/portfolio/grid-works/video-work.png" alt="portfolio video work">
-                        </div>
-                        <div class="portfolio-item-info font-second">
-                            <h3 class="portfolio-item-title">nice lilly</h3>
-                            <div class="portfolio-item-detail">
-                                <p>Sit amet, consectetur adipi.</p>
-                                <!-- LightBox Button -->
-                                <a href="img/portfolio/grid-works/work02.mp4" data-lightbox-type="iframe" title="This is an image title" class="icon-magnifying-glass lightbox" data-lightbox-gallery="gallery1"></a>
-                                <!--/ End LightBox Button -->
-                                <a href="project_page.html" class="animsition-link icon-attachment"></a>
-                            </div>
-                        </div>
-                    </li>
-                    <!--/ End Work Item -->
-                    <li class="portfolio-item video col-sm-6 col-md-4 col-xs-12">
-                        <div class="portfolio-item-img">
-                            <img src="http://placehold.it/900x500" alt="portfolio" />
-                        </div>
-                        <div class="portfolio-item-info font-second">
-                            <h3 class="portfolio-item-title">free alan</h3>
-                            <div class="portfolio-item-detail">
-                                <p>Nihil odio ipsa fugiat</p>
-                                <!-- LightBox Button -->
-                                <a href="https://www.youtube.com/watch?v=3FaVQcEjHUc" title="This is an image title" class="icon-magnifying-glass lightbox" data-lightbox-gallery="gallery1"></a>
-                                <!--/ End LightBox Button -->
-                                <a href="project_page.html" class="animsition-link icon-attachment"></a>
-                            </div>
-                        </div>
-                    </li>
-                    <!--/ End Work Item -->
-                    <li class="portfolio-item web-design video col-sm-6 col-md-4 col-xs-12">
-                        <div class="portfolio-item-img">
-                            <img src="http://placehold.it/900x500" alt="portfolio" />
-                        </div>
-                        <div class="portfolio-item-info font-second">
-                            <h3 class="portfolio-item-title">fresh gump</h3>
-                            <div class="portfolio-item-detail">
-                                <p>Nobis blanditiis rerum dolor</p>
-                                <!-- LightBox Button -->
-                                <a href="img/portfolio/grid-works/work04_lg.jpg" title="This is an image title" class="icon-magnifying-glass lightbox" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/grid-works/work04_lg@2x.jpg"></a>
-                                <!--/ End LightBox Button -->
-                                <a href="project_page.html" class="animsition-link icon-attachment"></a>
-                            </div>
-                        </div>
-                    </li>
-                    <!--/ End Work Item -->
-                    <li class="portfolio-item photo web-design col-sm-6 col-md-4 col-xs-12">
-                        <div class="portfolio-item-img">
-                            <img src="http://placehold.it/900x500" alt="portfolio" />
-                        </div>
-                        <div class="portfolio-item-info font-second">
-                            <h3 class="portfolio-item-title">fresh gump</h3>
-                            <div class="portfolio-item-detail">
-                                <p>Nobis blanditiis rerum dolor</p>
-                                <!-- LightBox Button -->
-                                <a href="https://vimeo.com/31240369" title="This is an image title" class="icon-magnifying-glass lightbox" data-lightbox-gallery="gallery1"></a>
-                                <!--/ End LightBox Button -->
-                                <a href="project_page.html" class="animsition-link icon-attachment"></a>
-                            </div>
-                        </div>
-                    </li>
-                    <!--/ End Work Item -->
-                    <li class="portfolio-item photo web-design col-sm-6 col-md-4 col-xs-12">
-                        <div class="portfolio-item-img">
-                            <img src="http://placehold.it/900x500" alt="portfolio" />
-                        </div>
-                        <div class="portfolio-item-info font-second">
-                            <h3 class="portfolio-item-title">fresh gump</h3>
-                            <div class="portfolio-item-detail">
-                                <p>Nobis blanditiis rerum dolor</p>
-                                <!-- LightBox Button -->
-                                <a href="img/portfolio/grid-works/work06_lg.jpg" title="This is an image title" class="icon-magnifying-glass lightbox" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/grid-works/work06_lg@2x.jpg"></a>
-                                <!--/ End LightBox Button -->
-                                <a href="project_page.html" class="animsition-link icon-attachment"></a>
-                            </div>
-                        </div>
-                    </li>
-                    <!--/ End Work Item -->
-                </ul>
-                <!--/ End Works Items -->
-            </section>
             <!--/ End Works Section -->
             <!-- Project Order Section -->
             <!--/ End Project Order Section -->
             <!-- Team Section -->
-            <section id="team-section" class="team-section section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="section-title">
-                                <div class=" section-title-more">
-                                    get to know our
-                                </div>
-                                <div>
-                                    <h2 class="section-title-heading"><span>team </span>members</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.col -->
-                        <div class="col-sm-6 margin-bottom-xs-40">
-                            <p class="section-text">Laboriosam quae vel odit dignissimos maxime quis ab nihil sapiente, a, optio accusamus temporibus veniam assumenda gnissimos maxime quiex rerum repudiandae.</p>
-                        </div>
-                    </div>
-                    <!-- /.col -->
-                    <!-- /.row -->
-                    <!-- Team Items -->
-                    <div class="team-items">
-                        <!-- Team Carousel -->
-                        <div id="team-carousel-3" class="team-carousel owl-carousel carousel dots-under">
-                            <!-- Team Item -->
-                            <div class="team-item">
-                                <!-- Team Item Image -->
-                                <div class="team-item-img">
-                                    <img src="http://placehold.it/480x640" alt="team member" />
-                                </div>
-                                <!--/ End Team Item Imagee -->
-                                <!-- Team Item Name -->
-                                <div class="team-item-name font-second">
-                                    <h4 class="">miranda lawson</h4>
-                                    <span>art director</span>
-                                </div>
-                                <!--/ End Team Item Name -->
-                                <!-- Team Item Info -->
-                                <div class="team-item-info">
-                                    <div class="team-item-text">
-                                        <h3 class="font-second">get in <span>touch ..</span></h3>
-                                        <p>Spudiandae nesciunt, eosihil praesentium soluta natus eaque..</p>
-                                    </div>
-                                    <div class="skillbar-container">
-                                        <p class="skillbar-title font-second">Javascript
-                                            <span>54%</span>
-                                        </p>
-                                        <!-- Skill Bar Precent_ to change the percent change the data-percent="..." -->
-                                        <div class="skillbar">
-                                            <div class="skillbar-bar" data-percent="54%"></div>
-                                        </div>
-                                    </div>
-                                    <!--/ End Skill Bar -->
-                                    <div class="skillbar-container">
-                                        <p class="skillbar-title font-second">Ruby
-                                            <span>99%</span>
-                                        </p>
-                                        <div class="skillbar">
-                                            <div class="skillbar-bar delay0-2s" data-percent="99%"></div>
-                                        </div>
-                                    </div>
-                                    <!--/ End Skill Bar -->
-                                    <ul class="team-item-social clearlist">
-                                        <li>
-                                            <a href="#." class="fa fa-facebook-square"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#." class=" fa fa-twitter"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#." class="fa fa-pinterest"></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!--/ End Team Item Info -->
-                            </div>
-                            <!--/ End Team Item -->
-                            <!-- Team Item -->
-                            <div class="team-item">
-                                <!-- Team Item Image -->
-                                <div class="team-item-img">
-                                    <img src="http://placehold.it/480x640" alt="team member" />
-                                </div>
-                                <!--/ End Team Item Image -->
-                                <!-- Team Item Name -->
-                                <div class="team-item-name font-second">
-                                    <h4 class="">Garrus Vakarian</h4>
-                                    <span>project manager</span>
-                                </div>
-                                <!--/ End Team Item Name -->
-                                <!-- Team Item Info -->
-                                <div class="team-item-info">
-                                    <div class="team-item-text">
-                                        <h3 class="font-second"><span>love</span> the nature</h3>
-                                        <p>Mlestias dicta digre dolorumor ipsum ut aut. Distinctio, inventore!</p>
-                                    </div>
-                                    <div class="skillbar-container">
-                                        <p class="skillbar-title font-second">jQuery
-                                            <span>75%</span>
-                                        </p>
-                                        <!-- Skill Bar Precent_ to change the percent change the data-percent="..." -->
-                                        <div class="skillbar">
-                                            <div class="skillbar-bar" data-percent="75%"></div>
-                                        </div>
-                                    </div>
-                                    <!--/ End Skill Bar -->
-                                    <div class="skillbar-container">
-                                        <p class="skillbar-title font-second">CSS3
-                                            <span>90%</span>
-                                        </p>
-                                        <div class="skillbar">
-                                            <div class="skillbar-bar delay0-2s" data-percent="90%"></div>
-                                        </div>
-                                    </div>
-                                    <!--/ End Skill Bar -->
-                                    <ul class="team-item-social clearlist">
-                                        <li>
-                                            <a href="#." class="fa fa-facebook-square"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#." class=" fa fa-twitter"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#." class="fa fa-skype"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#." class="fa fa-pinterest"></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!--/ End Item Info -->
-                            </div>
-                            <!--/ End Team Item -->
-                            <!-- Team Item -->
-                            <div class="team-item">
-                                <!-- Team Item Image -->
-                                <div class="team-item-img">
-                                    <img src="http://placehold.it/480x640" alt="team member" />
-                                </div>
-                                <!--/ End Team Item Image -->
-                                <!-- Team Item Name -->
-                                <div class="team-item-name font-second">
-                                    <h4 class="">Steven Hackett</h4>
-                                    <span>web designer</span>
-                                </div>
-                                <!--/ End Team Item Name -->
-                                <!-- Team Item Info -->
-                                <div class="team-item-info">
-                                    <div class="team-item-text">
-                                        <h3 class="font-second">Let's <span>roll.</span></h3>
-                                        <p>Labore earum ius iure. Placeat tempore optio omnis beatae.</p>
-                                    </div>
-                                    <div class="skillbar-container">
-                                        <p class="skillbar-title font-second">Photoshop
-                                            <span>81%</span>
-                                        </p>
-                                        <!-- Skill Bar Precent_ to change the percent change the data-percent="..." -->
-                                        <div class="skillbar">
-                                            <div class="skillbar-bar" data-percent="81%"></div>
-                                        </div>
-                                    </div>
-                                    <!--/ End Skill Bar -->
-                                    <div class="skillbar-container">
-                                        <p class="skillbar-title font-second">Illustrator
-                                            <span>68%</span>
-                                        </p>
-                                        <div class="skillbar">
-                                            <div class="skillbar-bar delay0-2s" data-percent="68%"></div>
-                                        </div>
-                                    </div>
-                                    <!--/ End Skill Bar -->
-                                    <ul class="team-item-social clearlist">
-                                        <li>
-                                            <a href="#." class=" fa fa-twitter"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#." class="fa fa-skype"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#." class="fa fa-pinterest"></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!--/ End Item Info -->
-                            </div>
-                            <!--/ End Team Item -->
-                            <!-- Team Item -->
-                            <div class="team-item">
-                                <!-- Team Item Image -->
-                                <div class="team-item-img">
-                                    <img src="http://placehold.it/480x640" alt="team member" />
-                                </div>
-                                <!--/ End Team Item Image -->
-                                <!-- Team Item Name -->
-                                <div class="team-item-name font-second">
-                                    <h4 class="">Sansa Stark</h4>
-                                    <span>Photoshp Expert</span>
-                                </div>
-                                <!--/ End Team Item Name -->
-                                <!-- Team Item Info -->
-                                <div class="team-item-info">
-                                    <div class="team-item-text">
-                                        <h3 class="font-second"><span>believe</span> in yourself - !</h3>
-                                        <p>Simos ni nemo veritatis asperiores averienetur rati.</p>
-                                    </div>
-                                    <div class="skillbar-container">
-                                        <p class="skillbar-title font-second">Photoshop
-                                            <span>99%</span>
-                                        </p>
-                                        <!-- Skill Bar Precent_ to change the percent change the data-percent="..." -->
-                                        <div class="skillbar">
-                                            <div class="skillbar-bar" data-percent="81%"></div>
-                                        </div>
-                                    </div>
-                                    <!--/ End Skill Bar -->
-                                    <div class="skillbar-container">
-                                        <p class="skillbar-title font-second">Illustrator
-                                            <span>78%</span>
-                                        </p>
-                                        <div class="skillbar">
-                                            <div class="skillbar-bar delay0-2s" data-percent="68%"></div>
-                                        </div>
-                                    </div>
-                                    <!--/ End Skill Bar -->
-                                    <ul class="team-item-social clearlist">
-                                        <li>
-                                            <a href="#." class="fa fa-facebook-square"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#." class=" fa fa-twitter"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#." class="fa fa-skype"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#." class="fa fa-pinterest"></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!--/ End Item Info -->
-                            </div>
-                            <!--/ End Team Item -->
-                            <!-- Team Item -->
-                            <div class="team-item">
-                                <!-- Team Item Image -->
-                                <div class="team-item-img">
-                                    <img src="http://placehold.it/480x640" alt="team member" />
-                                </div>
-                                <!--/ End Team Item Image -->
-                                <!-- Team Item Name -->
-                                <div class="team-item-name font-second">
-                                    <h4 class="">Philip owen</h4>
-                                    <span>Sales Manager</span>
-                                </div>
-                                <!--/ End Team Item Name -->
-                                <!-- Team Item Info -->
-                                <div class="team-item-info">
-                                    <div class="team-item-text">
-                                        <h3 class="font-second"><span>Fly</span> with me ..</h3>
-                                        <p>Noi nemo veritatis asperiores fimos averienetur rati.</p>
-                                    </div>
-                                    <div class="skillbar-container">
-                                        <p class="skillbar-title font-second">Photography
-                                            <span>175%</span>
-                                        </p>
-                                        <!-- Skill Bar Precent_ to change the percent change the data-percent="..." -->
-                                        <div class="skillbar">
-                                            <div class="skillbar-bar" data-percent="81%"></div>
-                                        </div>
-                                    </div>
-                                    <!--/ End Skill Bar -->
-                                    <div class="skillbar-container">
-                                        <p class="skillbar-title font-second">production managment
-                                            <span>88%</span>
-                                        </p>
-                                        <div class="skillbar">
-                                            <div class="skillbar-bar delay0-2s" data-percent="68%"></div>
-                                        </div>
-                                    </div>
-                                    <!--/ End Skill Bar -->
-                                    <ul class="team-item-social clearlist">
-                                        <li>
-                                            <a href="#." class="fa fa-facebook-square"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#." class=" fa fa-twitter"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#." class="fa fa-skype"></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!--/ End Item Info -->
-                            </div>
-                            <!--/ End Team Item -->
-                        </div>
-                        <!--/ End Team Carousel -->
-                    </div>
-                    <!--/ End Team Items -->
-                </div>
-                <!-- /.container -->
-            </section>
             <!--/ End Team Section -->
             <hr />
             <!-- Process Section -->
-            <section id="process-section" class="process-section section">
-                <div class="container">
-                    <div class="section-title">
-                        <div class=" section-title-more">
-                            how is our work
-                        </div>
-                        <div>
-                            <h1 class="section-title-heading"><span>process</span> flow</h1>
-                        </div>
-                    </div>
-                    <div class="position-relative padding-bottom-40 padding-top-100 padding-top-sm-120">
-                        <!-- process headers -->
-                        <ul class="process-labels font-second">
-                            <!-- change [data-active] and list item to a same value -->
-                            <li data-que="1" class="process-label-active wow fadeInDown" data-wow-offset="100" data-wow-delay="0s">
-                                <i class="icon-layers">
-                            <i class="icon-layers icon-shade"></i>
-                                </i>
-                                <span data-active="digital&nbsp;audit"> digital&nbsp;audit</span>
-                            </li>
-                            <li data-que="2" class=" wow fadeInDown" data-wow-offset="100" data-wow-delay=".15s">
-                                <i class="icon-aperture">
-                        <i class="icon-aperture icon-shade"></i>
-                                </i>
-                                <span data-active="user&nbsp;experience"> user&nbsp;experience</span>
-                            </li>
-                            <li data-que="3" class=" wow fadeInDown" data-wow-offset="100" data-wow-delay=".3s">
-                                <i class="icon-tools">
-                            <i class="icon-tools icon-shade"></i>
-                                </i>
-                                <span data-active="art&nbsp;direction"> art&nbsp;direction</span>
-                            </li>
-                            <li data-que="4" class=" wow fadeInDown" data-wow-offset="100" data-wow-delay=".45s">
-                                <i class="icon-gears">
-                            <i class="icon-gears icon-shade"></i>
-                                </i>
-                                <span data-active="development"> development</span>
-                            </li>
-                        </ul>
-                        <!--/ End process headers -->
-                        <!-- process bar -->
-                        <div class="line-process-parent">
-                            <div class="line-process"></div>
-                        </div>
-                        <!--/ End process bar -->
-                    </div>
-                </div>
-                <!-- /.container -->
-                <!-- process contents -->
-                <div id="process" class="process owl-carousel container">
-                    <!-- process item -->
-                    <div class="process-item section-text row container">
-                        <div class="col-xs-12 col-sm-6">
-                            <p>Quam impedit nisi aliquid veritatis praesentium nesciunt a quia cupiditate repellat doloribus! Illum doloribus, odit consequatur sed minima eius earum qui, corrupti.Maiores amet dignissimos.</p>
-                        </div>
-                        <div class="col-xs-12 col-sm-6">
-                            <p>Sed minima eius earum qui, corrupti.Maiores amet digni Nisi autem quia ipsum non sint enim pariatur porro sunt totam nobis. explicabo quo aut provident, quod earum doloribus repudiandae.</p>
-                        </div>
-                    </div>
-                    <!--/ End process item -->
-                    <!-- process item -->
-                    <div class="process-item section-text row container">
-                        <div class="col-xs-12 col-sm-6">
-                            <p>Quam impedit nisi aliquid veritatis praesentium nesciunt a quia cupiditate repellat doloribus! Illum doloribus, odit consequatur sed minima eius earum qui, corrupti.Maiores amet dignissimos.</p>
-                        </div>
-                        <div class="col-xs-12 col-sm-6">
-                            <p>Sed minima eius earum qui, corrupti.Maiores amet digni Nisi autem quia ipsum non sint enim pariatur porro sunt totam nobis. explicabo quo aut provident, quod earum doloribus repudiandae.</p>
-                        </div>
-                    </div>
-                    <!--/ End process item -->
-                    <!-- process item -->
-                    <div class="process-item section-text row container">
-                        <div class="col-xs-12 col-sm-6">
-                            <p class="">Quam impedit nisi aliquid veritatis praesentium nesciunt a quia cupiditate repellat doloribus! Illum doloribus, odit consequatur sed minima eius earum qui, corrupti.Maiores amet dignissimos.</p>
-                        </div>
-                        <div class="col-xs-12 col-sm-6">
-                            <p>Sed minima eius earum qui, corrupti.Maiores amet digni Nisi autem quia ipsum non sint enim pariatur porro sunt totam nobis. explicabo quo aut provident, quod earum doloribus repudiandae.</p>
-                        </div>
-                    </div>
-                    <!--/ End process item -->
-                    <!-- process item -->
-                    <div class="process-item section-text row container">
-                        <div class="col-xs-12 col-sm-6">
-                            <p class="">Quam impedit nisi aliquid veritatis praesentium nesciunt a quia cupiditate repellat doloribus! Illum doloribus, odit consequatur sed minima eius earum qui, corrupti.Maiores amet dignissimos.</p>
-                        </div>
-                        <div class="col-xs-12 col-sm-6">
-                            <p class="">Sed minima eius earum qui, corrupti.Maiores amet digni Nisi autem quia ipsum non sint enim pariatur porro sunt totam nobis. explicabo quo aut provident, quod earum doloribus repudiandae.</p>
-                        </div>
-                    </div>
-                    <!--/ End process item -->
-                </div>
-                <!--/ End process contents -->
-            </section>
-            <!--/ End Process Section -->
-            <!-- Clients Testimonials Section -->
-            <section id="client-testimonials" class="client-testimonials section  overlay">
-                <!-- Parallax Image Background -->
-                <div class="parallax-section-bg client-testimonials-bg overlay full-screen" data-center="transform: translate3d(0px, -50%, 0px)" data-top-bottom="transform: translate3d(0px, -25%, 0px)" data-bottom-top="transform: translate3d(0px, -75%, 0px)" data-anchor-target="#client-testimonials"></div>
-                <!--/ End Parallax Image Background -->
-                <div class="container">
-                    <div class="section-title padding-bottom-40">
-                        <div class=" section-title-more">
-                            hear them out
-                        </div>
-                        <div>
-                            <h1 class="section-title-heading">our <span>clients</span></h1>
-                        </div>
-                    </div>
-                </div>
-                <!--/ .container -->
-                <div id="testimonials" class="testimonials owl-carousel carousel">
-                    <div class="testimo-item">
-                        <div class="container">
-                            <blockquote>
-                                <p>"Aciunt ipsum dolore doloribus eius ad hic quidem. Quaerat ea explicabo, blanditiis laborum ut accusamus velbus eius adhic quidemu mollitia quae."</p>
-                                <footer class="">Natalia Oswald
-                                    <cite title="Source Title">High point co.</cite>
-                                </footer>
-                            </blockquote>
-                        </div>
-                        <!--/ .container -->
-                    </div>
-                    <!--/ End Testimonials Item -->
-                    <div class="testimo-item">
-                        <div class="container">
-                            <blockquote>
-                                <p>"Ratione, iure obcaecati laborum adipisci ipsam illo, accusantium sit, molestiae minima perspiciatis nulla temporibus illum. Molestias totam suscipit sequi, sed optio!offici."</p>
-                                <footer class="">Rafael Ando
-                                    <cite title="Source Title">raindrop inc.</cite>
-                                </footer>
-                            </blockquote>
-                        </div>
-                        <!--/ .container -->
-                    </div>
-                    <!--/ End Testimonials Item -->
-                    <div class="testimo-item">
-                        <div class="container">
-                            <blockquote>
-                                <p>"Illo fuga, enim perspiciatis et aut ad. Earum quidem minima magnam consectetur deserunt sed id amet, doloribus veritatis, eligendi omnis, voluptas illum.molestiae."</p>
-                                <footer class="">Johny rich
-                                    <cite title="Source Title">ennax studio</cite>
-                                </footer>
-                            </blockquote>
-                        </div>
-                        <!--/ .container -->
-                    </div>
-                    <!--/ End Testimonials Item -->
-                </div>
-                <!--/ End Testimonials Content -->
-            </section>
-            <!--/ End Clients Testimonials Section -->
-            <!-- Clients Logos -->
-            <div class="client-logos small-section">
-                <div class="container">
-                    <div id="client-logos" class="owl-carousel">
-                        <div>
-                            <img src="http://placehold.it/200x70" alt="client logo" />
-                        </div>
-                        <div>
-                            <img src="http://placehold.it/200x70" alt="client logo" />
-                        </div>
-                        <div>
-                            <img src="http://placehold.it/200x70" alt="client logo" />
-                        </div>
-                        <div>
-                            <img src="http://placehold.it/200x70" alt="client logo" />
-                        </div>
-                        <div>
-                            <img src="http://placehold.it/200x70" alt="client logo" />
-                        </div>
-                    </div>
-                </div>
-                <!--/ .container -->
-            </div>
-            <!--/ End Clients Logos -->
+
             <hr />
             <!-- Pricing Section -->
             <section id="pricing-section" class="pricing-section section">
@@ -988,7 +377,7 @@
                                     now choose on of our
                                 </div>
                                 <div>
-                                    <h1 class="section-title-heading"><span>plans</span> available</h1>
+                                    <h1 class="section-title-heading"><span>party</span> packages</h1>
                                 </div>
                             </div>
                         </div>
@@ -1102,10 +491,10 @@
                 <div class="container">
                     <div class="section-title">
                         <div class=" section-title-more">
-                            posts from
+                            Interested in
                         </div>
                         <div>
-                            <h1 class="section-title-heading">our <span>blog</span></h1>
+                            <h1 class="section-title-heading">Our <span>Franchise!</span></h1>
                         </div>
                     </div>
                     <div class="row">
@@ -1234,11 +623,7 @@
             <!-- Footer Section -->
             <footer class="footer-section section no-padding-bottom">
                 <!-- footer logo -->
-                <div class="footer-logo">
-                    <img src="img/logo/logo.png" alt="logo" />
-                </div>
-                <!--/ End footer logo -->
-                <!-- Social icons -->
+
                 <div class="footer-social">
                     <a href="#." class="fa fa-facebook-square wow fadeIn" data-wow-offset="150" data-wow-delay="0s"></a>
                     <a href="#." class="fa fa-twitter wow fadeIn" data-wow-offset="150" data-wow-delay=".15s"></a>

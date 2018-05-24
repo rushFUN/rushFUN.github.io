@@ -1569,14 +1569,14 @@ small,
   font-size: 14px;
   text-transform: uppercase;
   /*The line-height here and your logo height should be the same, so type the height of your logo in front of line-height below */
-  line-height: 30px;
+  line-height: 80px;
   padding: 15px 0 15px 10px;
   -webkit-transition: all 0.3s ease-in;
           transition: all 0.3s ease-in;
 }
 .navbar-logo {
   margin: 0 auto;
-  padding: 15px 0;
+  padding: 5px 0;
   cursor: pointer;
   -webkit-transition: all 0.3s ease-in-out;
           transition: all 0.3s ease-in-out;
